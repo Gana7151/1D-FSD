@@ -1,15 +1,22 @@
 {
-  "originalUrl": "https://www.example.com:8080/path/name?user=john&age=25#section1",
-  "protocol": "https:",
-  "fullUrl": "https://www.example.com:8080/path/name?user=john&age=25#section1",
-  "host": "www.example.com:8080",
-  "hostname": "www.example.com",
-  "port": "8080",
-  "pathname": "/path/name",
-  "search": "?user=john&age=25",
-  "searchParams": {
-    "user": "john",
-    "age": "25"
+  "name": "node-url-parser",
+  "version": "1.0.0",
+  "description": "A simple Node.js HTTP server to parse and display URL components in HTML or JSON format.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "hash": "#section1"
+  "keywords": [
+    "node.js",
+    "http",
+    "url",
+    "parser",
+    "web server",
+    "json",
+    "html"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "dependencies": {}
 }
