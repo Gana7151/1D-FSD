@@ -37,7 +37,6 @@ const server = http.createServer((req, res) => {
         res.end(`
             <h1>Welcome to the Node.js URL Parser Server</h1>
             <p>This is a basic web server created using Node.js HTTP module.</p>
-            <p>Current time: ${new Date().toLocaleString()}</p>
             <p>To parse a URL, go to: <a href="/parse?url=https://www.example.com:8080/path/name?user=john&age=25#section1">/parse?url=https://www.example.com:8080/path/name?user=john&age=25#section1</a></p>
             <p>You can replace the example URL with any URL you want to parse.</p>
         `);
